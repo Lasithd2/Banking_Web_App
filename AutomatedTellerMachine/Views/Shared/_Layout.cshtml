@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Banking application</title>
-    @Styles.Render("~/Content/css") //virtual path
+    @Styles.Render("~/Content/css") <!virtual path
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
@@ -30,6 +30,13 @@
         </div>
     </div>
     <div class="container body-content">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="~/Content/Images/logo.png" class="img-responsive center-block" />
+        </div>
+    </div>
+    
+       
         @RenderBody()
         <hr />
         <footer>
