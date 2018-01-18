@@ -17,7 +17,7 @@ namespace AutomatedTellerMachine.Controllers
         }
 
         // GET /home/about
-        // [ActionName("about-this-atm")]
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -40,11 +40,12 @@ namespace AutomatedTellerMachine.Controllers
 
             return View();
         }
-
         public ActionResult Foo()
-        {            
+        {
             return View("About");
         }
+
+
 
         public ActionResult Serial(string letterCase)
         {
@@ -53,9 +54,11 @@ namespace AutomatedTellerMachine.Controllers
             {
                 return Content(serial.ToLower());
             }
-            // return new HttpStatusCodeResult(403);
+             return new HttpStatusCodeResult(403);
             // return Json(new { name = "serial number", value = "serial" }, JsonRequestBehavior.AllowGet);
-            return RedirectToAction("Index");
+            //  return new HttpStatusCodeResult(403);
+           // return Json(new { name = "serial number", value = "serial" }, JsonRequestBehavior.AllowGet);
         }
+      
     }
 }
