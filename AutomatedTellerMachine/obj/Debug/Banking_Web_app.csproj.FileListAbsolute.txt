@@ -54,3 +54,6 @@ C:\Users\User\Desktop\Lynda\Bank_App\MyApp\AutomatedTellerMachine\obj\Debug\Bank
 C:\Users\User\Desktop\Lynda\Bank_App\MyApp\AutomatedTellerMachine\obj\Debug\Banking_Web_app.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Lynda\Bank_App\MyApp\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.dll
 C:\Users\User\Desktop\Lynda\Bank_App\MyApp\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.pdb
+C:\Users\User\Desktop\Lynda\Bank_App\MyApp\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.Migrations.InitialCreate.resources
+C:\Users\User\Desktop\Lynda\Bank_App\MyApp\AutomatedTellerMachine\obj\Debug\Banking_Web_app.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Lynda\Bank_App\MyApp\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.Migrations.AccountNumberChanges.resources

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutomatedTellerMachine.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,9 +17,9 @@ namespace AutomatedTellerMachine.Controllers
 
         // GET: CheckingAccount/Details/5
         public ActionResult Details()
-        {
-            var checkingAccount = new Models.CheckingAccount { AccountNumber = "2242424", FirstName = "Lasith", LastName = "Dasanayake", Balance = 500 };
-            return View(checkingAccount);
+        {        
+            var checkingAccount = new CheckingAccount { AccountNumber = "0000012345", FirstName = "Lasith", LastName = "Dasanayake", Balance = 1000 };
+            return View(checkingAccount);        
         }
 
         // GET: CheckingAccount/Create
